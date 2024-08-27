@@ -1,6 +1,6 @@
 ﻿namespace Playground.Operators;
 
-public class Filtering04
+public class Filtering05
 {
     public static void Demo()
     {
