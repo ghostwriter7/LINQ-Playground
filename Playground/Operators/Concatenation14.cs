@@ -14,7 +14,7 @@ public class Concatenation14
 
 public static class ExtensionMethods
 {
-    public static IEnumerable<T> Prepend(this IEnumerable<T> values, T value)
+    public static IEnumerable<T> Prepend<T>(this IEnumerable<T> values, T value)
     {
         yield return value;
         foreach (var item in values)
