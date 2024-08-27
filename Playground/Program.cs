@@ -1,3 +1,3 @@
 ﻿using Playground.Parallel;
 
-T16_AsParallel.Demo();
+T17_ErrorsAndCancellation.Demo();
