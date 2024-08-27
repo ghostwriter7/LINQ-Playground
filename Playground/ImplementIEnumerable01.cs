@@ -2,7 +2,7 @@
 
 namespace Playground;
 
-public class ImplementIEnumerable
+public class ImplementIEnumerable01
 {
     public static void Demo()
     {
