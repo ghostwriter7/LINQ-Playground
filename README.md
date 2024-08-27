@@ -9,7 +9,11 @@ How is LINQ implemented?
 
 ### Operators
 
-Higher-order functions (functions taking other functions)
+1. Higher-order functions (functions taking other functions)
+2. Immediate, e.g. `Count()`, `ToArray()`
+3. Deferred, e.g. `Select()`
+   4. Streaming
+   5. Non-Streaming - need an entire to read an entire collection before start yielding values
 
 ### IEnumerable<T> - LINQ to Objects
 
